@@ -92,31 +92,26 @@ The results can be viewed through an interactive dashboard for easier monitoring
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
-NeuralWatch-main/
+NeuralWatch/
 │
-├── backend/
-│   ├── main.py
-│   ├── ato_detector.py
-│   ├── data_pipeline.py
-│   ├── feature_schema.py
-│   ├── profile_store.py
-│   ├── rule_engine.py
-│   ├── train_models.py
-│   ├── replay_upi_csv.py
-│   ├── requirements.txt
-│   └── .env.example
+├── HackTheCore/              # Hackathon documentation & resources
 │
-├── data/
+├── NeuralWatch-main/         # Main NeuralWatch application
+│   ├── backend/              # Flask backend & ML pipeline
+│   ├── data/                 # Dataset and transaction data
+│   ├── public/               # Static assets
+│   ├── src/                  # Frontend source code
+│   ├── package.json
+│   ├── vite.config.js
+│   └── README.md
 │
-├── public/
-│
-├── src/
-│
-├── package.json
-├── vite.config.js
+├── others/                   # Additional project resources
+├── public/                   # Public assets
+├── src/                      # Frontend source
+├── Project_demo.mp4         # Project demonstration
 └── README.md
 ```
 
